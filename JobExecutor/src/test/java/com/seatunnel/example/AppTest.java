@@ -1,4 +1,4 @@
-package org.example;
+package com.seatunnel.example;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

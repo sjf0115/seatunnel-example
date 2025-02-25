@@ -1,0 +1,8 @@
+client:
+  cluster:
+    hosts: "localhost:5801" # 集群地址
+  timeout:
+    connection: 5000
+    request: 10000
+  retry:
+    maxAttempts: 3

@@ -16,8 +16,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.release>17</maven.compiler.release>
     <seatunnel.version>2.3.8</seatunnel.version>
+    <lombok.version>1.18.24</lombok.version>
   </properties>
 
   <dependencyManagement>
@@ -27,6 +27,13 @@
         <groupId>org.apache.seatunnel</groupId>
         <artifactId>seatunnel-engine-client</artifactId>
         <version>${seatunnel.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>${lombok.version}</version>
+        <scope>provided</scope>
       </dependency>
 
       <dependency>
